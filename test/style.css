@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Montserrat:ital@0;1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("assets/Beige\ Brown\ Minimalist\ Personal\ Bio\ Link\ Instagram\ Story\ \(1\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    height: 100vh;
+}
+
+.oct{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: rem;
+
+}
+
+.oct img{
+    height: 45px;
+    margin: 10rem;
+    
+}
+
+hr{
+    width: 50%;
+    margin-left: 25vw;
+    display: flex;
+    align-items: center;
+}
+
+.title span{
+    font-size: 2rem;
+    font-family: 'Antonio', sans-serif;
+    font-weight: 400;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.subtitle span{
+    font-size: .75rem;
+    justify-content: center;
+    align-items: center;
+    display: center;
+    margin: 10.5rem;
+}
+
+.projects{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+}
+
+.project-item{
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects img{
+    width: 50px;
+    margin-bottom: 1rem; /* Espaço entre a imagem e o texto */
+}
+
+.projects span{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+@media(max-width: 480px){
+
+}
